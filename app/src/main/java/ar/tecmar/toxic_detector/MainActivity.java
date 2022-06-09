@@ -1,0 +1,47 @@
+package ar.tecmar.toxic_detector;
+
+import android.content.Intent;
+import android.media.MediaPlayer;
+import android.net.Uri;
+import android.provider.MediaStore;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+
+
+public class MainActivity extends AppCompatActivity {
+
+   MediaPlayer mp ;
+   Button bt1, bt2;
+   String miweb = "https://tecmar.org/";
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        bt1 = (Button) findViewById(R.id.startbt);
+        bt2 =(Button) findViewById(R.id.sabermasboton);
+        mp = MediaPlayer.create(this,R.raw.sonido_botono_futiro);
+
+
+    }
+
+    public void inicioapp (View v) {
+        mp.start();
+        Intent inicio = new Intent(this,comienzo.class);
+        startActivity(inicio);
+    }
+
+    public void saber (View v) {
+        mp.start();
+        Uri link = Uri.parse(miweb);
+        Intent i = new Intent (Intent.ACTION_VIEW,link );
+        startActivity(i);
+
+    }
+
+
+}
