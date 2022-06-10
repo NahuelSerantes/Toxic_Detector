@@ -3,5 +3,21 @@
     <string name="descrpcion_imagen">Toxic Detector logo</string>
     <string name="boton1">EMPEZAR</string>
     <string name="boton2">SABER MAS</string>
-    <string name="intro">TOXIC DETECTOR® es una aplicación desarrollada por psicólogos y expertos del comportamiento humano junto a lideres en el campo de la tecnología que tiene como objetivo detectar a personas que afectan negativamente a nuestro desarrollo y bienestar personal. Personas que son altamente perjudiciales y peligrosas para nuestra vida, los que comunmente llamamos “ PERSONA TOXICA”</string>
+    <string name="intro">TOXIC DETECTOR® es una aplicación desarrollada
+        por psicólogos y expertos del comportamiento humano junto a
+        lideres en el campo de la tecnología que tiene como objetivo
+        detectar a personas que afectan negativamente a nuestro desarrollo
+        y bienestar personal. Personas que son altamente perjudiciales y
+        peligrosas para nuestra vida, los que comunmente llamamos “ PERSONA TOXICA”</string>
+    <string name="checksi">SI</string>
+    <string name="checkno">NO</string>
+    <string name="compcamp">COMPLETA LOS CAMPOS</string>
+    <string name="ingresa1">Ingresa tu nombre</string>
+    <string name="ingresa2">Ingresa nombre de tu pareja</string>
+    <string name="ingresa3">Tiempo juntos (en meses)</string>
+    <string name="resp">RESPONDE LAS SIGUIENTES PREGUNTAS</string>
+    <string name="preg1">¿ Te sientes segur@ a su lado ?</string>
+    <string name="preg2">¿ Puedes decirle que algo te molesta sin que se enoje o arme un escandalo?</string>
+    <string name="continuar">CONTINUAR</string>
+
 </resources>

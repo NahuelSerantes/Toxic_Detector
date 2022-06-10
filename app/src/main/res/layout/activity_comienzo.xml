@@ -4,13 +4,215 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".comienzo">
 
+    <RadioGroup
+        android:id="@+id/r2"
+        android:layout_width="334dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="192dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <RadioButton
+            android:id="@+id/si2"
+            android:layout_width="95dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="108dp"
+            android:layout_weight="1"
+            android:letterSpacing="0.2"
+            android:onClick="clicksound"
+            android:text="@string/checksi"
+            android:textAlignment="textStart"
+            android:textColor="#00FA1E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="98dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="44dp"
+            android:layout_weight="1"
+            android:letterSpacing="0.2"
+            android:onClick="checkar2"
+            android:text="@string/checkno"
+            android:textColor="#FA0000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="140dp"
-        android:layout_height="56dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="152dp" />
+        android:id="@+id/textView5"
+        android:layout_width="366dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:letterSpacing="0.1"
+        android:text="COMPLETA LOS CAMPOS"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="366dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:letterSpacing="0.1"
+        android:text="@string/resp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timemeses" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="282dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/ingresa1"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/nombrepareja"
+        android:layout_width="282dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/ingresa2"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre" />
+
+    <EditText
+        android:id="@+id/timemeses"
+        android:layout_width="278dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/ingresa3"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombrepareja" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="320dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="12dp"
+        android:letterSpacing="0.1"
+        android:text="@string/preg1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="375dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="140dp"
+        android:letterSpacing="0.1"
+        android:text="@string/preg2"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/btncontinuuar"
+        android:layout_width="222dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="100dp"
+        android:background="#00FA1E"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="8sp"
+        android:onClick="continuar"
+        android:text="@string/continuar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <RadioGroup
+        android:id="@+id/r1"
+        android:layout_width="328dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="52dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <RadioButton
+            android:id="@+id/si1"
+            android:layout_width="95dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="108dp"
+            android:letterSpacing="0.2"
+            android:onClick="clicksound"
+            android:text="@string/checksi"
+            android:textAlignment="textStart"
+            android:textColor="#00FA1E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="98dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="44dp"
+            android:layout_weight="1"
+            android:letterSpacing="0.2"
+            android:onClick="checkar1"
+            android:text="@string/checkno"
+            android:textColor="#FA0000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+
+
+
+
 </android.support.constraint.ConstraintLayout>
