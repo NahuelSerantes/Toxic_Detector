@@ -4,13 +4,87 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".comienzo">
+    android:background="@drawable/background"
+    tools:context=".comienzo" >
+
+    <Button
+        android:id="@+id/btnparajetoxica"
+        android:layout_width="248dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:background="#00FA1E"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="8sp"
+        android:onClick="btnParejaToxica"
+        android:text="@string/botonPT"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnparajetoxica4"
+        android:layout_width="248dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="204dp"
+        android:background="#FF0000"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/botonAT"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnparajetoxica5"
+        android:layout_width="248dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="112dp"
+        android:background="#FAD000"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/botonFT"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="140dp"
-        android:layout_height="56dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="152dp" />
+        android:layout_width="358dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:letterSpacing="0.1"
+        android:text="@string/selecciona"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/descrpcion_imagen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/conetrasparaicono" />
 </android.support.constraint.ConstraintLayout>
