@@ -26,6 +26,24 @@ public class QuieresConocerlosResultados extends AppCompatActivity {
         Intent i = new Intent(this,ParejaToxica.class) ;
         startActivity(i);
 
+    }
+
+    // FUNCION QUE DISPARA LAS 3 ACTIVITYS DEPENDIENDO EL RESULTADO
+
+    public void resultado (View v ) {
+        System.out.println(toxic_counter);
+        mp.start();
+        if (toxic_counter>61) { Intent i = new Intent (this,ParejaRedCase.class);
+        startActivity(i);}
+
+        else if (toxic_counter<=60 && toxic_counter >=25) { Intent i = new Intent (this,ParejaYellowCase.class);
+            startActivity(i); }
+
+        else {  Intent i = new Intent (this,ParejaGreenCase.class);
+            startActivity(i); }
+
+
+
 
     }
 

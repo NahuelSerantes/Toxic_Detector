@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Toxic Detector</string>
     <string name="descrpcion_imagen">Toxic Detector logo</string>
+    <string name="botonVI">VOLVER AL INICIO</string>
+    <string name="botonCalificar">CALIFICAR APLICACIÓN</string>
     <string name="boton1">EMPEZAR</string>
     <string name="boton2">SABER MAS</string>
     <string name="botonPT">PAREJA TOXICA</string>
@@ -9,6 +11,9 @@
     <string name="botonAT">AMIGO TOXICO</string>
     <string name="botonTest">VOLVER HACER EL TEST</string>
     <string name="selecciona">POR FAVOR SELECCIONA QUE TIPO DE PERSONA TOXICA QUIERES DETECTAR</string>
+    <string name="redcasep">Tu pareja es una persona ALTAMENTE TOXICA, tu ESTABILIDAD EMOCIONAL, tu BIENESTAR FISICO y hasta TU VIDA pueden estar corriendo peligro. Toma las acciones necesarias para alejarte de esta persona. Pide ayuda, contención, busca información y comienza a vivir la vida que realmente mereces.</string>
+    <string name="yellowcasep">Tu pareja es una persona MODERADAMENTE TOXICA, sigue prestando atención a sus actitudes y manejate con PRECAUCION. Habla con tu pareja de las cosas que te molestan y fijate si hace un esfuerzo para cambiarlas de no ser así considera alejarte de esta persona antes que sea demasiado tarde.  </string>
+    <string name="greencasep">Felicitaciones!! Tu pareja es una persona NO TOXICA. Personas así son dificiles de encontrar, disfruta, cuida y valora su compañia. Cualquier problema que enfrenten podrás contar con su apoyo incondicional y podrán resolverlo juntos. Has hecho una elección adulta y madura al elegir a tu pareja. EXITOS A AMBOS!!   </string>
     <string name="seleccionares">HEMOS FINALIZADO DE PRECESAR TUS RESPUESTAS POR FAVOR SELECCIONA COMO CONTINUAR</string>
     <string name="intro">TOXIC DETECTOR® es una aplicación desarrollada por psicólogos y expertos del comportamiento humano junto a lideres en el campo de la tecnología que tiene como objetivo detectar a personas que afectan negativamente a nuestro desarrollo y bienestar personal. Personas que son altamente perjudiciales y peligrosas para nuestra vida, los que comunmente llamamos “ PERSONA TOXICA”</string>
 

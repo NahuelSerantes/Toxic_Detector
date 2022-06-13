@@ -14,6 +14,15 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".ParejaGreenCase"
+            android:exported="false" />
+        <activity
+            android:name=".ParejaYellowCase"
+            android:exported="false" />
+        <activity
+            android:name=".ParejaRedCase"
+            android:exported="false" />
+        <activity
             android:name=".QuieresConocerlosResultados"
             android:exported="false" />
         <activity
