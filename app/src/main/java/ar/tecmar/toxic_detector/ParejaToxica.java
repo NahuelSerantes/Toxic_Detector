@@ -52,7 +52,7 @@ public class ParejaToxica extends AppCompatActivity {
             yb.start();
         if (contadorI<19) {
             contadorI++;
-            contadorToxico=+3;
+            contadorToxico+=3;
             img.setImageResource(imagenes[contadorI]); }
         else { Intent inicio = new Intent(this,QuieresConocerlosResultados.class);
             inicio.putExtra("contoxic",contadorToxico);
@@ -68,8 +68,9 @@ public class ParejaToxica extends AppCompatActivity {
         rb.start();
         if (contadorI<19) {
             contadorI++;
-            contadorToxico=+5;
-            img.setImageResource(imagenes[contadorI]); }
+            contadorToxico+=5;
+            img.setImageResource(imagenes[contadorI]);
+            }
         else { Intent inicio = new Intent(this,QuieresConocerlosResultados.class);
             inicio.putExtra("contoxic",contadorToxico);
             startActivity(inicio);  }
