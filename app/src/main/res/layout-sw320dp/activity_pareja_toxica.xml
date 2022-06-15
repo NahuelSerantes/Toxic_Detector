@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ParejaToxica">
+
+    <ImageView
+        android:id="@+id/visorpt"
+        android:layout_width="321dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pt1" />
+
+    <Button
+        android:id="@+id/btngreen"
+        android:layout_width="110dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btngreenefect"
+        android:onClick="greenbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/visorpt" />
+
+    <Button
+        android:id="@+id/btnred"
+        android:layout_width="110dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/redefect"
+        android:onClick="redbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/visorpt" />
+
+    <Button
+        android:id="@+id/btnyellow"
+        android:layout_width="110dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/yellowefect"
+        android:onClick="yellowbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/visorpt" />
+
+</android.support.constraint.ConstraintLayout>
