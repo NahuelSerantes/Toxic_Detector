@@ -20,8 +20,12 @@
 
     <Button
         android:id="@+id/startbt"
-        android:layout_width="222dp"
-        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:layout_marginEnd="55dp"
+        android:autoSizeTextType="uniform"
+        android:layout_height="73dp"
+        android:layout_marginStart="55dp"
+        android:padding="20dp"
         android:layout_marginTop="16dp"
         android:background="#00FA1E"
         android:letterSpacing="0.2"
@@ -39,13 +43,17 @@
 
     <Button
         android:id="@+id/sabermasboton"
-        android:layout_width="222dp"
-        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="55dp"
         android:layout_marginTop="28dp"
+        android:layout_marginEnd="55dp"
+        android:autoSizeTextType="uniform"
         android:background="#00FA1E"
         android:letterSpacing="0.2"
         android:lineSpacingExtra="8sp"
         android:onClick="saber"
+        android:padding="20dp"
         android:text="@string/boton2"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -54,9 +62,10 @@
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/startbt"
-        app:layout_constraintVertical_bias="0.157" />
+        app:layout_constraintVertical_bias="0.047" />
 
     <TextView
         android:id="@+id/textView"
@@ -66,7 +75,9 @@
         android:text="@string/intro"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="19dp"
+        android:textSize="19sp"
+        android:padding="5dp"
+        android:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />

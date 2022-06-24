@@ -67,6 +67,7 @@
         android:layout_width="358dp"
         android:layout_height="149dp"
         android:layout_marginTop="8dp"
+        android:autoSizeTextType="uniform"
         android:letterSpacing="0.1"
         android:text="@string/selecciona"
         android:textAlignment="center"

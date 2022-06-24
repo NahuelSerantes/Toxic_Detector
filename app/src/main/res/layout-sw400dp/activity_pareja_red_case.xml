@@ -9,7 +9,10 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="376dp"
+        android:layout_width="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:autoSizeTextType="uniform"
         android:layout_height="307dp"
         android:layout_marginTop="12dp"
         android:text="@string/redcasep"
@@ -34,12 +37,16 @@
 
     <Button
         android:id="@+id/btnparajetoxica6"
-        android:layout_width="241dp"
-        android:layout_height="59dp"
+        android:layout_width="0dp"
+        android:layout_marginEnd="35dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="35dp"
+        android:padding="13dp"
         android:layout_marginTop="4dp"
         android:background="#FD0202"
         android:letterSpacing="0.2"
         android:lineSpacingExtra="8sp"
+        android:autoSizeTextType="uniform"
         android:onClick="volverAlInicio"
         android:text="@string/botonCalificar"
         android:textAlignment="center"
@@ -53,14 +60,20 @@
 
     <Button
         android:id="@+id/btnparajetoxica7"
-        android:layout_width="241dp"
-        android:layout_height="59dp"
+        android:layout_width="0dp"
+        android:layout_marginEnd="35dp"
+
+        android:layout_height="73dp"
+        android:layout_marginStart="35dp"
+        android:padding="13dp"
+
         android:layout_marginTop="40dp"
         android:background="#FA0000"
         android:letterSpacing="0.2"
         android:lineSpacingExtra="8sp"
         android:onClick="volverAlInicio"
         android:text="@string/botonVI"
+        android:autoSizeTextType="uniform"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"

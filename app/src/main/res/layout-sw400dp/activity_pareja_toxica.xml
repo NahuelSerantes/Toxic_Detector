@@ -35,22 +35,25 @@
         android:id="@+id/btnred"
         android:layout_width="148dp"
         android:layout_height="137dp"
-        android:layout_marginTop="332dp"
         android:background="@drawable/redefect"
         android:onClick="redbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/visorpt" />
+        app:layout_constraintTop_toBottomOf="@+id/btnyellow"
+        app:layout_constraintVertical_bias="0.24" />
 
     <Button
         android:id="@+id/btnyellow"
         android:layout_width="148dp"
         android:layout_height="137dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/yellowefect"
         android:onClick="yellowbtn"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/visorpt" />
+        app:layout_constraintTop_toBottomOf="@+id/btngreen" />
 
 </android.support.constraint.ConstraintLayout>
