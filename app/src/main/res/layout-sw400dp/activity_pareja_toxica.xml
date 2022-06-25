@@ -12,12 +12,13 @@
         android:layout_width="445dp"
         android:layout_height="282dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="4dp"
         android:layout_marginEnd="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.346"
+        app:layout_constraintHorizontal_bias="0.313"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/pt1" />
 
     <Button
@@ -27,9 +28,12 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/btngreenefect"
         android:onClick="greenbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/visorpt" />
+        app:layout_constraintTop_toBottomOf="@+id/visorpt"
+        app:layout_constraintVertical_bias="0.028" />
 
     <Button
         android:id="@+id/btnred"
@@ -42,7 +46,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnyellow"
-        app:layout_constraintVertical_bias="0.24" />
+        app:layout_constraintVertical_bias="0.133" />
 
     <Button
         android:id="@+id/btnyellow"
@@ -51,9 +55,11 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/yellowefect"
         android:onClick="yellowbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btngreen" />
+        app:layout_constraintTop_toBottomOf="@+id/btngreen"
+        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>
