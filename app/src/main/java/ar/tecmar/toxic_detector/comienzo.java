@@ -8,6 +8,7 @@ import android.view.View;
 
 public class comienzo extends AppCompatActivity {
     MediaPlayer mp ;
+    //restar
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
