@@ -9,13 +9,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 
 public class MainActivity extends AppCompatActivity {
 
-   MediaPlayer mp ;
-   Button bt1, bt2;
-   String miweb = "https://tecmar.org/";
+    MediaPlayer mp;
+    Button bt1, bt2;
+    String miweb = "https://tecmar.org/";
+    private AdView mAdView;
 
 
     @Override
@@ -23,11 +29,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         bt1 = (Button) findViewById(R.id.startbt);
-        bt2 =(Button) findViewById(R.id.sabermasboton);
-        mp = MediaPlayer.create(this,R.raw.sonido_botono_futiro);
+        bt2 = (Button) findViewById(R.id.sabermasboton);
+        mp = MediaPlayer.create(this, R.raw.sonido_botono_futiro);
 
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
 
+        });
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
+
 
     public void inicioapp (View v) {
         mp.start();
