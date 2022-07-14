@@ -40,6 +40,7 @@
         android:layout_width="0dp"
         android:layout_height="61dp"
         android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="35dp"
         android:autoSizeTextType="uniform"
         android:background="#FF0000"
@@ -57,15 +58,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnparajetoxica5"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintVertical_bias="0.074" />
 
     <Button
         android:id="@+id/btnparajetoxica5"
         android:layout_width="0dp"
         android:layout_height="61dp"
         android:layout_marginStart="35dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="35dp"
-        android:layout_marginBottom="292dp"
         android:autoSizeTextType="uniform"
         android:background="#FAD000"
         android:letterSpacing="0.2"
@@ -83,7 +84,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnparajetoxica"
-        app:layout_constraintVertical_bias="0.392" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView2"
@@ -101,7 +102,7 @@
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.013" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView3"
