@@ -21,7 +21,7 @@
     <Button
         android:id="@+id/startbt"
         android:layout_width="197dp"
-        android:layout_height="43dp"
+        android:layout_height="50dp"
         android:layout_marginTop="12dp"
         android:background="#00FA1E"
         android:letterSpacing="0.2"
@@ -40,7 +40,7 @@
     <Button
         android:id="@+id/sabermasboton"
         android:layout_width="197dp"
-        android:layout_height="44dp"
+        android:layout_height="50dp"
         android:layout_marginTop="28dp"
         android:background="#00FA1E"
         android:letterSpacing="0.2"
@@ -71,18 +71,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sabermasboton"></com.google.android.gms.ads.AdView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

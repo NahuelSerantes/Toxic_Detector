@@ -3,17 +3,13 @@ package ar.tecmar.toxic_detector;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
-
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.google.android.gms.ads.AdRequest;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer mp;
     Button bt1, bt2;
     String miweb = "https://tecmar.org/";
-    private AdView mAdView;
+
 
 
     @Override
@@ -32,16 +28,7 @@ public class MainActivity extends AppCompatActivity {
         bt2 = (Button) findViewById(R.id.sabermasboton);
         mp = MediaPlayer.create(this, R.raw.sonido_botono_futiro);
 
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-            }
 
-        });
-
-        mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
     }
 
 
