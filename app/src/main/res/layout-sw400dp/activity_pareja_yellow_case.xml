@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
+    android:onClick="calificar"
     tools:context=".ParejaYellowCase">
 
     <Button
@@ -18,7 +19,7 @@
         android:background="#ECFD02"
         android:letterSpacing="0.2"
         android:lineSpacingExtra="8sp"
-        android:onClick="volverAlInicio"
+        android:onClick="calificar"
         android:padding="13dp"
         android:text="@string/botonCalificar"
         android:textAlignment="center"

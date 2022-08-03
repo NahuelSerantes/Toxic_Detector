@@ -9,8 +9,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.gms.ads.AdView;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         Intent inicio = new Intent(this,comienzo.class);
         startActivity(inicio);
     }
+
+    // METODO QUE MANDA A LA PAGINA DE TECMAR
 
     public void saber (View v) {
         mp.start();

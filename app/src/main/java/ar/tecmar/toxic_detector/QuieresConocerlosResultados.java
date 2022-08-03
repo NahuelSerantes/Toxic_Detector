@@ -2,13 +2,15 @@ package ar.tecmar.toxic_detector;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class QuieresConocerlosResultados extends AppCompatActivity {
       int toxic_counter ;
       MediaPlayer mp ;
+
 
 
     @Override
