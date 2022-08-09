@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // METOODO QUE INICIA LA APP ---> INTENT QUE ABRE ACTIVITY "comienzo"
 
     public void inicioapp (View v) {
         mp.start();
