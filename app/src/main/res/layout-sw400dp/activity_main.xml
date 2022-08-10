@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="274dp"
+        android:layout_height="174dp"
         android:contentDescription="@string/descrpcion_imagen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +23,7 @@
     <Button
         android:id="@+id/startbt"
         android:layout_width="0dp"
-        android:layout_height="73dp"
+        android:layout_height="60dp"
         android:layout_marginStart="55dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="55dp"
@@ -41,15 +41,16 @@
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.033" />
+        app:layout_constraintVertical_bias="0.01" />
+
 
     <Button
         android:id="@+id/sabermasboton"
         android:layout_width="0dp"
-        android:layout_height="73dp"
+        android:layout_height="60dp"
         android:layout_marginStart="55dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="55dp"
@@ -70,9 +71,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/startbt"
-        app:layout_constraintVertical_bias="0.047" />
-
-
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"

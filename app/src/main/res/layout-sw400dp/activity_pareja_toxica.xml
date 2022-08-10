@@ -15,6 +15,7 @@
         android:layout_marginEnd="29dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintHorizontal_bias="0.313"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,8 +24,8 @@
 
     <Button
         android:id="@+id/btngreen"
-        android:layout_width="148dp"
-        android:layout_height="137dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/btngreenefect"
         android:onClick="greenbtn"
@@ -33,33 +34,35 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/visorpt"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintVertical_bias="0.019" />
 
     <Button
         android:id="@+id/btnred"
-        android:layout_width="148dp"
-        android:layout_height="137dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/redefect"
         android:onClick="redbtn"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_goneMarginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnyellow"
-        app:layout_constraintVertical_bias="0.133" />
+        app:layout_constraintTop_toBottomOf="@+id/btnyellow" />
 
     <Button
         android:id="@+id/btnyellow"
-        android:layout_width="148dp"
-        android:layout_height="137dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+
         android:layout_marginTop="20dp"
+
         android:background="@drawable/yellowefect"
         android:onClick="yellowbtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btngreen"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.002" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

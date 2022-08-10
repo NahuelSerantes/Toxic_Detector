@@ -18,7 +18,7 @@
         android:text="@string/redcasep"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="21sp"
+        android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,21 +29,21 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="318dp"
-        android:layout_height="215dp"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
         android:contentDescription="@string/descrpcion_imagen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
+        app:layout_constraintVertical_bias="0.012"
         app:srcCompat="@drawable/persona_altamente_toxica" />
 
     <Button
         android:id="@+id/btnparajetoxica6"
         android:layout_width="0dp"
-        android:layout_height="73dp"
+        android:layout_height="53dp"
         android:layout_marginStart="35dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="35dp"
@@ -51,7 +51,7 @@
         android:background="#FD0202"
         android:letterSpacing="0.2"
         android:lineSpacingExtra="8sp"
-        android:onClick="volverAlInicio"
+        android:onClick="calificar"
         android:padding="13dp"
         android:text="@string/botonCalificar"
         android:textAlignment="center"
@@ -69,12 +69,13 @@
     <Button
         android:id="@+id/btnparajetoxica7"
         android:layout_width="0dp"
-        android:layout_height="73dp"
-
+        android:layout_height="53dp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="40dp"
+
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="35dp"
 
+        android:layout_marginBottom="32dp"
         android:autoSizeTextType="uniform"
         android:background="#FA0000"
         android:letterSpacing="0.2"
@@ -92,5 +93,5 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnparajetoxica6"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.077" />
 </androidx.constraintlayout.widget.ConstraintLayout>

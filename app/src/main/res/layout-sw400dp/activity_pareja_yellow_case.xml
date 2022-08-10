@@ -11,7 +11,7 @@
     <Button
         android:id="@+id/btnparajetoxica8"
         android:layout_width="0dp"
-        android:layout_height="73dp"
+        android:layout_height="53dp"
 
         android:layout_marginStart="35dp"
         android:layout_marginEnd="35dp"
@@ -37,8 +37,9 @@
     <Button
         android:id="@+id/btnparajetoxica9"
         android:layout_width="0dp"
-        android:layout_height="73dp"
+        android:layout_height="53dp"
         android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="35dp"
         android:autoSizeTextType="uniform"
         android:background="#ECFD02"
@@ -54,10 +55,10 @@
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnparajetoxica8"
-        app:layout_constraintVertical_bias="0.137" />
+        app:layout_constraintVertical_bias="0.059" />
 
     <TextView
         android:id="@+id/textView5"
@@ -69,7 +70,7 @@
         android:text="@string/yellowcasep"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="21sp"
+        android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,8 +81,8 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="318dp"
-        android:layout_height="215dp"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
         android:contentDescription="@string/descrpcion_imagen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -9,15 +9,15 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="318dp"
-        android:layout_height="215dp"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
         android:contentDescription="@string/descrpcion_imagen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.002"
         app:srcCompat="@drawable/persona_no_toxica" />
 
     <TextView
@@ -30,7 +30,7 @@
         android:text="@string/greencasep"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="21sp"
+        android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +42,7 @@
     <Button
         android:id="@+id/btnparajetoxica10"
         android:layout_width="0dp"
-        android:layout_height="73dp"
+        android:layout_height="53dp"
 
         android:layout_marginStart="35dp"
         android:layout_marginEnd="35dp"
@@ -51,7 +51,7 @@
         android:background="#00FA1E"
         android:letterSpacing="0.2"
         android:lineSpacingExtra="8sp"
-        android:onClick="volverAlInicio"
+        android:onClick="calificar"
         android:padding="13dp"
         android:text="@string/botonCalificar"
         android:textAlignment="center"
@@ -64,15 +64,16 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnparajetoxica11"
         android:layout_width="0dp"
-        android:layout_height="73dp"
+        android:layout_height="53dp"
         android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="35dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginBottom="56dp"
         android:autoSizeTextType="uniform"
         android:background="#00FA1E"
         android:letterSpacing="0.2"
@@ -91,5 +92,5 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnparajetoxica10"
-        app:layout_constraintVertical_bias="0.318" />
+        app:layout_constraintVertical_bias="0.069" />
 </androidx.constraintlayout.widget.ConstraintLayout>
