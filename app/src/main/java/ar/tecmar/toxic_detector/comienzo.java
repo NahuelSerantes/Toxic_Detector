@@ -47,4 +47,13 @@ public class comienzo extends AppCompatActivity {
         startActivity(inicio);
     }
 
+
+    // SE CREA METODO QUE INICIA Familiar TOXICA
+    public void btnFamiliaToxica (View v) {
+        mp.start();
+        Intent inicio = new Intent(this,FamiliaToxica.class);
+        startActivity(inicio);
+    }
+
+
 }

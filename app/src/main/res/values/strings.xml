@@ -16,7 +16,9 @@
     <string name="greencasep">Felicitaciones!! Tu pareja es una persona NO TOXICA. Personas así son dificiles de encontrar, disfruta, cuida y valora su compañia. Cualquier problema que enfrenten podrás contar con su apoyo incondicional y podrán resolverlo juntos. Has hecho una elección adulta y madura al elegir a tu pareja. EXITOS A AMBOS!!   </string>
     <string name="seleccionares">HEMOS FINALIZADO DE PRECESAR TUS RESPUESTAS POR FAVOR SELECCIONA COMO CONTINUAR</string>
     <string name="intro">TOXIC DETECTOR® es una aplicación desarrollada por psicólogos y expertos del comportamiento humano junto a lideres en el campo de la tecnología que tiene como objetivo detectar a personas que afectan negativamente a nuestro desarrollo y bienestar personal. Personas que son altamente perjudiciales y peligrosas para nuestra vida, los que comunmente llamamos “ PERSONA TOXICA”</string>
-
+    <string name="familiagreencasep">Felicidades!! Tu familiar es una persona NO TOXICA. Poder contar con una persona así en tu familia va darte fuerza y confianza a la hora de encarar algun proyecto. Y aunque las cosas se pongan difíciles vas a tener a alguien con quien contar."    </string>
+    <string name="familiayellowcasep">Tu es FAMILIAR es una persona MODERADAMENTE TOXICA, sigue prestando atención a sus actitudes y manejate con PRECAUCION. Habla con tu familiar de las cosas que te molestan y fijate si hace un esfuerzo para cambiarlas. Todavía hay tiempo de tener una relación sana con tu familiar.  </string>
+    <string name="familiarredcasep">Tu familiar es una persona ALTAMENTE TOXICA, tu ESTABILIDAD EMOCIONAL, tu BIENESTAR FISICO y hasta TU VIDA pueden estar corriendo peligro. No importa que sea tu familiar, deja de compartir TIEMPO, PROYECTOS, y MOMENTOS con esta persona. Alejate de INMEDIATO. </string>
 
 </resources>
 

@@ -6,7 +6,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -17,6 +16,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
+        <activity
+            android:name=".FamiliaRedCase"
+            android:exported="false" />
+        <activity
+            android:name=".FamiliaYellowCase"
+            android:exported="false" />
+        <activity
+            android:name=".FamiliaGreenCase"
+            android:exported="false" />
+        <activity
+            android:name=".ResultadosFamiliarToxic"
+            android:exported="false" />
+        <activity
+            android:name=".FamiliaToxica"
+            android:exported="false" />
         <activity
             android:name=".ParejaGreenCase"
             android:exported="false" />
@@ -43,13 +57,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        </activity> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
-
+            android:value="ca-app-pub-3940256099942544~3347511713" />
     </application>
 
 </manifest>

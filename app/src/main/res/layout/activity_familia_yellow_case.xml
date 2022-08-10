@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ParejaYellowCase">
+
+    <Button
+        android:id="@+id/btnparajetoxica8"
+        android:layout_width="241dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="572dp"
+        android:background="#ECFD02"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="8sp"
+        android:onClick="volverAlInicio"
+        android:text="@string/botonCalificar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnparajetoxica9"
+        android:layout_width="241dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="656dp"
+        android:background="#ECFD02"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="8sp"
+        android:onClick="volverAlInicio"
+        android:text="@string/botonVI"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="376dp"
+        android:layout_height="307dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="236dp"
+        android:text="@string/yellowcasep"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="318dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/descrpcion_imagen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/persona_moderadamente_toxica" />
+</androidx.constraintlayout.widget.ConstraintLayout>

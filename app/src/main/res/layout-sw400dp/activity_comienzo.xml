@@ -72,6 +72,7 @@
 
         android:letterSpacing="0.2"
         android:lineSpacingExtra="8sp"
+        android:onClick="btnFamiliaToxica"
         android:padding="13dp"
         android:text="@string/botonFT"
         android:textAlignment="center"
