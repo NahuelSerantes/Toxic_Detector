@@ -13,17 +13,21 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
-public class comienzo extends AppCompatActivity {
+public class ResultadosAmigoToxico extends AppCompatActivity {
+
+    int toxic_counter ;
     MediaPlayer mp ;
     private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_comienzo);
-        mp = MediaPlayer.create(this, R.raw.sonido_botono_futiro) ;
-        // METODO PUBLICIDAD BANNER
+        setContentView(R.layout.activity_resultados_amigo_toxico);
+                Intent i = getIntent();
+        toxic_counter = i.getIntExtra("contoxic",0);
+        mp = MediaPlayer.create(this,R.raw.sonido_botono_futiro) ;
 
+        // PUBLICIDAD BANNER
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {
@@ -35,32 +39,33 @@ public class comienzo extends AppCompatActivity {
         mAdView.loadAd(adRequest);
 
 
-
-
-
-
-    }
-    // SE CREA METODO QUE INICIA PAREJA TOXICA
-    public void btnParejaToxica (View v) {
-        mp.start();
-        Intent inicio = new Intent(this,ParejaToxica.class);
-        startActivity(inicio);
     }
 
-
-    // SE CREA METODO QUE INICIA Familiar TOXICA
-    public void btnFamiliaToxica (View v) {
+    //FUNCION QUE MANDA A VOLVER HACER EL TEST
+    public void volver(View v) {
         mp.start();
-        Intent inicio = new Intent(this,FamiliaToxica.class);
-        startActivity(inicio);
+        Intent i = new Intent(this,AmigoToxico.class) ;
+        startActivity(i);
+
     }
 
+    // FUNCION QUE DISPARA LAS 3 ACTIVITYS DEPENDIENDO EL RESULTADO
 
-    // SE CREA METODO QUE INICIA AMIGO TOXICO
-    public void btnAmigoToxica (View v) {
+    public void resultado (View v ) {
+        System.out.println(toxic_counter);
         mp.start();
-        Intent inicio = new Intent(this,AmigoToxico.class);
-        startActivity(inicio);
+        if (toxic_counter>61) { Intent i = new Intent (this,AmigoRedCase.class);
+            startActivity(i);}
+
+        else if (toxic_counter<=60 && toxic_counter >=25) { Intent i = new Intent (this,AmigoYellowCase.class);
+            startActivity(i); }
+
+        else {  Intent i = new Intent (this,AmigoGreenCase.class);
+            startActivity(i); }
+
+
+
+
     }
 
 
