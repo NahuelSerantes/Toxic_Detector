@@ -51,7 +51,7 @@
         android:layout_height="307dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="236dp"
-        android:text="@string/yellowcasep"
+        android:text="@string/familiayellowcasep"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="21sp"

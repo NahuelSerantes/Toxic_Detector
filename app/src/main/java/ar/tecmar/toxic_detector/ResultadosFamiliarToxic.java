@@ -46,7 +46,7 @@ public class ResultadosFamiliarToxic extends AppCompatActivity {
     //FUNCION QUE MANDA A VOLVER HACER EL TEST
     public void volver(View v) {
         mp.start();
-        Intent i = new Intent(this,ParejaToxica.class) ;
+        Intent i = new Intent(this,FamiliaToxica.class) ;
         startActivity(i);
 
     }

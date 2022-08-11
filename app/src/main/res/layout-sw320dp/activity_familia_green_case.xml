@@ -5,25 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".ParejaRedCase">
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="264dp"
-        android:layout_height="168dp"
-        android:layout_marginTop="12dp"
-        android:text="@string/redcasep"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+    tools:context=".ParejaGreenCase">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView6"
         android:layout_width="227dp"
         android:layout_height="141dp"
         android:layout_marginTop="4dp"
@@ -31,14 +16,28 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/persona_altamente_toxica" />
+        app:srcCompat="@drawable/persona_no_toxica" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="259dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="156dp"
+        android:text="@string/familiagreencasep"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnparajetoxica6"
+        android:id="@+id/btnparajetoxica10"
         android:layout_width="186dp"
         android:layout_height="49dp"
-        android:layout_marginTop="4dp"
-        android:background="#FD0202"
+        android:layout_marginTop="8dp"
+        android:background="#00FA1E"
         android:letterSpacing="0.2"
         android:lineSpacingExtra="8sp"
         android:onClick="calificar"
@@ -50,14 +49,14 @@
         android:typeface="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Button
-        android:id="@+id/btnparajetoxica7"
+        android:id="@+id/btnparajetoxica11"
         android:layout_width="186dp"
         android:layout_height="49dp"
-        android:layout_marginTop="24dp"
-        android:background="#FA0000"
+        android:layout_marginTop="28dp"
+        android:background="#00FA1E"
         android:letterSpacing="0.2"
         android:lineSpacingExtra="8sp"
         android:onClick="volverAlInicio"
@@ -68,7 +67,6 @@
         android:textStyle="bold"
         android:typeface="normal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnparajetoxica6" />
+        app:layout_constraintTop_toBottomOf="@+id/btnparajetoxica10" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,7 +15,7 @@
         android:background="#ECFD02"
         android:letterSpacing="0.2"
         android:lineSpacingExtra="8sp"
-        android:onClick="volverAlInicio"
+        android:onClick="calificar"
         android:text="@string/botonCalificar"
         android:textAlignment="center"
         android:textColor="#000000"
