@@ -76,7 +76,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:adUnitId="ca-app-pub-4497692161597147/1838177075"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnparajetoxica3"></com.google.android.gms.ads.AdView>
