@@ -21,7 +21,7 @@
     <TextView
         android:id="@+id/textView6"
         android:layout_width="259dp"
-        android:layout_height="141dp"
+        android:layout_height="151dp"
         android:layout_marginTop="156dp"
         android:text="@string/familiagreencasep"
         android:textAlignment="center"

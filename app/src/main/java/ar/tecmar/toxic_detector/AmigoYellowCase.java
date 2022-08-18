@@ -19,7 +19,7 @@ public class AmigoYellowCase extends AppCompatActivity {
         mp = MediaPlayer.create(this,R.raw.sonido_botono_futiro);
     }
     // METODO PARA VOLVER AL INICIO
-    public void volverAlInicio (View v) {  mp.start();
+    public void volverAlInicio (View v) {
         Intent i = new Intent(this,MainActivity.class) ;
         startActivity(i); }
 

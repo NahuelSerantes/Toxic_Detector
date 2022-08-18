@@ -22,7 +22,7 @@ public class ParejaGreenCase extends AppCompatActivity {
 
 
     // METODO PARA VOLVER AL INICIO
-    public void volverAlInicio (View v) {  mp.start();
+    public void volverAlInicio (View v) {
         Intent i = new Intent(this,MainActivity.class) ;
         startActivity(i); }
 

@@ -20,6 +20,7 @@ import ar.tecmar.toxic_detector.databinding.ActivitySplashBinding;
  * status bar and navigation/system bar) with user interaction.
  */
 public class Splash extends AppCompatActivity {
+
     /**
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
@@ -95,6 +96,7 @@ public class Splash extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
         Thread miHilo = new Thread() {
             @Override
             public void run () {
@@ -176,6 +178,7 @@ public class Splash extends AppCompatActivity {
 
     public void change (View v) { Intent intento = new Intent(this, MainActivity.class) ;
                                 startActivity(intento);
+
 
     }
 
