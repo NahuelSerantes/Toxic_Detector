@@ -6,18 +6,15 @@ import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
-import com.google.android.gms.ads.AdRequest;
-
 
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 public class QuieresConocerlosResultados extends AppCompatActivity {
       int toxic_counter ;
       MediaPlayer mp ;
     private AdView mAdView;
+
+
 
 
 
@@ -29,20 +26,12 @@ public class QuieresConocerlosResultados extends AppCompatActivity {
         toxic_counter = i.getIntExtra("contoxic",0);
         mp = MediaPlayer.create(this,R.raw.sonido_botono_futiro) ;
 
-        // PUBLICIDAD BANNER
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-            }
-        });
-
-        mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
 
 
     }
+
+
     //FUNCION QUE MANDA A VOLVER HACER EL TEST
     public void volver(View v) {
         mp.start();
@@ -54,8 +43,10 @@ public class QuieresConocerlosResultados extends AppCompatActivity {
     // FUNCION QUE DISPARA LAS 3 ACTIVITYS DEPENDIENDO EL RESULTADO
 
     public void resultado (View v ) {
+
         System.out.println(toxic_counter);
         mp.start();
+
         if (toxic_counter>61) { Intent i = new Intent (this,ParejaRedCase.class);
         startActivity(i);}
 
