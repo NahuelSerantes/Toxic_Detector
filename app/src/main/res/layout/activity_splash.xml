@@ -12,8 +12,9 @@
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="369dp"
-        android:padding="25dp"
         android:layout_height="426dp"
+        android:onClick="change"
+        android:padding="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

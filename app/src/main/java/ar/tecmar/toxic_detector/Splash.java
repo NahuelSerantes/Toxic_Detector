@@ -170,4 +170,14 @@ public class Splash extends AppCompatActivity {
         mHideHandler.removeCallbacks(mHideRunnable);
         mHideHandler.postDelayed(mHideRunnable, delayMillis);
     }
+
+
+     // METODO QUE TOCANDO EL LOGO DISPARA AL MAIN
+
+    public void change (View v) { Intent intento = new Intent(this, MainActivity.class) ;
+                                startActivity(intento);
+
+    }
+
+
 }

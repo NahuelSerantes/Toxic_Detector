@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         bt1 = (Button) findViewById(R.id.startbt);
         bt2 = (Button) findViewById(R.id.sabermasboton);
         mp = MediaPlayer.create(this, R.raw.sonido_botono_futiro);
+        mp.start();
 
 
     }
